@@ -1,0 +1,6 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstraction.deps.json
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstraction.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstraction.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstraction.AssemblyInfo.cs
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstraction.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstraction.pdb

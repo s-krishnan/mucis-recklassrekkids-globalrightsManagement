@@ -1,0 +1,11 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstractions.deps.json
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstractions.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceAbstractions.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\CoreAbstractions.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceEntities.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\CoreAbstractions.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\bin\Debug\netstandard1.4\ServiceEntities.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstractions.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstractions.AssemblyInfo.cs
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstractions.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceAbstraction\obj\Debug\netstandard1.4\ServiceAbstractions.pdb

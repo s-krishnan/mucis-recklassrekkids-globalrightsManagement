@@ -1,0 +1,7 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\bin\Debug\netstandard1.4\CoreAbstractions.deps.json
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\bin\Debug\netstandard1.4\CoreAbstractions.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\bin\Debug\netstandard1.4\CoreAbstractions.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\obj\Debug\netstandard1.4\CoreAbstractions.AssemblyInfo.cs
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\obj\Debug\netstandard1.4\CoreAbstractions.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\obj\Debug\netstandard1.4\CoreAbstractions.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\CoreAbstractions\obj\Debug\netstandard1.4\CoreAbstractions.csprojResolveAssemblyReference.cache

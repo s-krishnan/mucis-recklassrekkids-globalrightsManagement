@@ -1,0 +1,7 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\bin\Debug\netstandard1.6\ServiceComponent.deps.json
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\bin\Debug\netstandard1.6\ServiceComponent.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\bin\Debug\netstandard1.6\ServiceComponent.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\obj\Debug\netstandard1.6\ServiceComponent.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\obj\Debug\netstandard1.6\ServiceComponent.AssemblyInfo.cs
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\obj\Debug\netstandard1.6\ServiceComponent.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.ServiceComponent\obj\Debug\netstandard1.6\ServiceComponent.pdb

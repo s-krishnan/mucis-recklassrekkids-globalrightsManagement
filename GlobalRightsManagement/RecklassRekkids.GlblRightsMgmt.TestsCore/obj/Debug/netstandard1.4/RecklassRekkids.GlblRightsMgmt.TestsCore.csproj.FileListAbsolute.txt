@@ -1,0 +1,7 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\bin\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.deps.json
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\bin\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\obj\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.AssemblyInfo.cs
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\bin\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\obj\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\obj\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\RecklassRekkids.GlblRightsMgmt.TestsCore\obj\Debug\netstandard1.4\RecklassRekkids.GlblRightsMgmt.TestsCore.pdb
