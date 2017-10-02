@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using System.Collections.Generic;
 
 
 using RecklassRekkids.GlblRightsMgmt.ServiceEntities;
 
-
-namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstraction.Services
+namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Services
 {
     public interface IProductService
     {
-        List<Product> Get();
+        IEnumerable<Product> Get(string u, string b);
     }
 }

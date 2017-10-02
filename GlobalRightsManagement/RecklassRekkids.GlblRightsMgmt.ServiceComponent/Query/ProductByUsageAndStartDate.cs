@@ -23,6 +23,15 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Query
         /// <param name="cutoff">actual cutoff time shoudl be used in the filter against available data</param>
         public ProductByUsageAndStartDate(string usage, DateTime cutoff)
         {
+            if (string.IsNullOrEmpty(usage)){
+                throw new ArgumentException("Invalid Argument(s).");
+            }
+
+            if (cutoff == DateTime.MinValue || cutoff == DateTime.MaxValue )
+            {
+                throw new ArgumentException("Invalid Argument(s).");
+            }
+
             this.Usage = usage;
             this.StartDate = cutoff;
         }
@@ -32,9 +41,11 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Query
         /// and start date is before given cutoff date 
         /// </summary>
         /// <returns></returns>
-        public Expression<Func<Product, bool>> Command()
+        public Func<Product, bool> Command()
         {
-            throw new NotImplementedException();
+            return (product =>
+                product.Usages==this.Usage 
+                && product.StartDate<=this.StartDate);
         }
     }
 }

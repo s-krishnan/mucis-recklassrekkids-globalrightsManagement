@@ -1,7 +1,0 @@
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\bin\Debug\netstandard1.4\ServiceComponent.Tests.deps.json
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\bin\Debug\netstandard1.4\ServiceComponent.Tests.dll
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\bin\Debug\netstandard1.4\ServiceComponent.Tests.pdb
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\obj\Debug\netstandard1.4\ServiceComponent.Tests.AssemblyInfo.cs
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\obj\Debug\netstandard1.4\ServiceComponent.Tests.dll
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\obj\Debug\netstandard1.4\ServiceComponent.Tests.pdb
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceComponent.Tests\obj\Debug\netstandard1.4\ServiceComponent.Tests.csprojResolveAssemblyReference.cache

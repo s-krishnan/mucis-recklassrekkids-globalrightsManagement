@@ -12,6 +12,6 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Query
     /// </summary>
     public interface IProductCommand
     {
-        Expression<Func<Product, bool>> Command();
+        Func<Product, bool> Command();
     }
 }
