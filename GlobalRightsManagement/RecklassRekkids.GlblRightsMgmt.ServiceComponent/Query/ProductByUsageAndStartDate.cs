@@ -9,7 +9,7 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Query
     /// Query for finding products which are supported by given partner and 
     /// start date should be before given date.
     /// </summary>
-    public class ProductByUsageAndStartDate : IProductCommand
+    public class ProductByUsageAndStartDate : IProductCommand<Product,bool>
     {
         public String Usage { get; set; }
 

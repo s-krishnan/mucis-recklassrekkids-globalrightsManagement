@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="API\Controller\ProductController.cs" />
+    <Compile Remove="API\View\AbstractView.cs" />
     <Compile Remove="Data\Context.cs" />
     <Compile Remove="Repository.cs" />
   </ItemGroup>

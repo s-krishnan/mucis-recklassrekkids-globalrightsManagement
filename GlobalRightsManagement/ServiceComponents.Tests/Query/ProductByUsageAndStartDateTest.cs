@@ -29,14 +29,5 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponent.Tests.Query
             var testObject = new ProductByUsageAndStartDate("digital download", new DateTime(2012,3,1));
             Assert.IsNotNull(testObject);
         }
-
-        [Test]
-        public void Command_Build_QueryCreated()
-        {
-            var actual =
-                (new ProductByUsageAndStartDate(
-                    "digital download", new DateTime(2012, 3, 1))).Command();
-            Assert.IsInstanceOf<Expression>(actual);
-        }
     }
 }

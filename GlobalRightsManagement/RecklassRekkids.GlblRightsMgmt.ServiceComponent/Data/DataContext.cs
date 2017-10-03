@@ -9,7 +9,7 @@ using RecklassRekkids.GlblRightsMgmt.DataComponent;
 
 namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Data
 {
-    public class DataContext<T> : IDataContext<T> where T : BaseEntity
+    public class DataContext<T> : IDataContext<T> where T : BaseEntity, new()
     {
         IList<T> _data;
 
@@ -27,6 +27,11 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Data
             {
                 _data = (IList<T>) Database.Products;
             }
+            if (typeof(T) == typeof(Distributor))
+            {
+                _data = (IList<T>)Database.Distributors;
+            }
+            
         }
     }
 }

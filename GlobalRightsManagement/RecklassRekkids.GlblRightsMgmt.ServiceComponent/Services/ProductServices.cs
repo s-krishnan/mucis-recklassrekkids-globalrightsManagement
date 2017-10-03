@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Repositories;
 using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Services;
@@ -37,11 +38,24 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.Services
                 throw new ArgumentException("Invalid Argument, Argument can not be Null or Empty.");
             }
 
-            IProductCommand command =
+            IProductCommand<Product,bool> command =
                 new ProductByUsageAndStartDate(
                     usage, DateTimeUtil.ConvertFromString(startBy));
 
             return this.repositiry.Find(command);
+        }
+
+        public void Upload(string connection)
+        {
+            if (String.IsNullOrEmpty(connection) || !System.IO.File.Exists(connection))
+            {
+                throw new ArgumentException("Invalid input product file.");
+            }
+            else
+            {
+                string[] s = System.IO.File.ReadAllLines(connection);
+                this.repositiry.Insert(s);
+            }
         }
     }
 }

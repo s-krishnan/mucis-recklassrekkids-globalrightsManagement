@@ -10,8 +10,8 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Query
     /// <summary>
     /// Interface for all teh query command
     /// </summary>
-    public interface IProductCommand
+    public interface IProductCommand<I,O>
     {
-        Func<Product, bool> Command();
+        Func<I, O> Command();
     }
 }

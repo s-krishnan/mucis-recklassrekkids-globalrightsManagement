@@ -17,6 +17,12 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Repositories
         /// </summary>
         /// <param name="command"></param>
         /// <returns></returns>
-        IEnumerable<Product> Find(IProductCommand command);
+        IEnumerable<Product> Find(IProductCommand<Product,bool> command);
+
+        /// <summary>
+        /// Method for inserting new products.
+        /// </summary>
+        /// <param name="newProducts"></param>
+        void Insert(IEnumerable<string> newProducts);
     }
 }

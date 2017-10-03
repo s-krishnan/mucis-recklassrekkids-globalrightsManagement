@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Linq;
-using NUnit;
 using NUnit.Framework;
 using Moq;
-using System.Collections;
-using System.Collections.Generic;
-
-using RecklassRekkids.GlblRightsMgmt.ServiceEntities;
 using RecklassRekkids.GlblRightsMgmt.ServiceComponents.Services;
 using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Repositories;
 using RecklassRekkids.GlblRightsMgmt.Tests.TestsCore;
@@ -22,14 +16,6 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceComponent.Tests.Services
             var testingObject = new TestingObject<ProductService>();
             testingObject.AddDependency(new Mock<IProductRepository>(MockBehavior.Loose));
             return testingObject;
-        }
-
-        [Test]
-        public void Get_MethodNotImplementedExcpetion()
-        {
-            TestingObject<ProductService> testingObject = this.GetTestingObject();
-            ProductService prodService = testingObject.GetResolvedTestingObject();
-            Assert.Throws<NotImplementedException>(() => prodService.Get("NOtValid","NotValid"));
         }
 
         [Test]

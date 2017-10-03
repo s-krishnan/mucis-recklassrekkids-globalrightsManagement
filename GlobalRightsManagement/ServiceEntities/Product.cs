@@ -33,6 +33,6 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceEntities
         /// <summary>
         /// Effective end date of the album should be out of shelves in the selected media (usgae).
         /// </summary>
-        public DateTime EndDate { get; set; }
+        public string EndDate { get; set; }
     }
 }

@@ -14,17 +14,17 @@ namespace RecklassRekkids.GlblRightsMgmt.DataComponent
         /// <summary>
         /// local dataset for storing and retrieving products.
         /// </summary>
-        public static IList<BaseEntity> Products { get; set; }
+        public static IList<Product> Products { get; set; }
 
         /// <summary>
         /// local dataset for storing and retrieving distributor.
         /// </summary>
-        public static IList<BaseEntity> Distributors { get; set; }
+        public static IList<Distributor> Distributors { get; set; }
 
         static Database()
         {
-            Products = new List<BaseEntity>();
-            Distributors = new List<BaseEntity>();
+            Products = new List<Product>();
+            Distributors = new List<Distributor>();
 
         }
     }

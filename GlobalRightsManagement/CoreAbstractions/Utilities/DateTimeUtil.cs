@@ -12,9 +12,16 @@ namespace RecklassRekkids.GlblRightsMgmt.CoreAbstractions.Utilities
                 throw new ArgumentNullException("DateTime can not be null.");
             }
 
-            var val = text.Replace("st", "").Replace("th", ""); 
-            return DateTime.Parse(val);
+            var val = text.Replace("st", "").Replace("th", "");
+
+            DateTime result;
+
+            if (!DateTime.TryParse(val, out result))
+            {
+                throw new ArgumentException("Given dateTime argument is not in the correct format. Kindly check your input!!!");
+            }
+
+            return result;
         }
     }
 }
-

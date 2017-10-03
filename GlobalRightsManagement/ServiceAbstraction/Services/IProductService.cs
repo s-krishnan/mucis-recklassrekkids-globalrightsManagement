@@ -7,6 +7,7 @@ namespace RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Services
 {
     public interface IProductService
     {
-        IEnumerable<Product> Get(string u, string b);
+        IEnumerable<Product> Get(string usage, string startByDate);
+        void Upload(string connection);
     }
 }

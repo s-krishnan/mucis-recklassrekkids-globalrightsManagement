@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Linq;
-using NUnit;
 using NUnit.Framework;
 using Moq;
-using System.Collections;
 using System.Collections.Generic;
 
 using RecklassRekkids.GlblRightsMgmt.ServiceEntities;
@@ -22,7 +20,7 @@ namespace ServiceComponents.Tests.Repositories
         {
             var testingObject = new TestingObject<ProductRepository>();
             testingObject.AddDependency(new Mock<IDataContext<Product>>(MockBehavior.Loose));
-            testingObject.AddDependency(new Mock<IProductCommand>(MockBehavior.Loose));
+            testingObject.AddDependency(new Mock<IProductCommand<Product,bool>>(MockBehavior.Loose));
             return testingObject;
         }
 
@@ -38,7 +36,7 @@ namespace ServiceComponents.Tests.Repositories
         public void Find_InvalidQuery_ThrowArgumentException()
         {
             TestingObject<ProductRepository> testingObject = this.GetTestingObject();
-            var mockProductCommand = testingObject.GetDependency<Mock<IProductCommand>>();
+            var mockProductCommand = testingObject.GetDependency<Mock<IProductCommand<Product, bool>>>();
 
             Func<Product, bool> query = null;
 
@@ -47,9 +45,9 @@ namespace ServiceComponents.Tests.Repositories
                 .Returns(query);
 
             ProductRepository prodRepository = testingObject.GetResolvedTestingObject();
-            var a = testingObject.GetDependency<Mock<IProductCommand>>();
+            var a = testingObject.GetDependency<Mock<IProductCommand<Product, bool>>>();
 
-            Assert.Throws<ArgumentException>(() => prodRepository.Find(It.IsAny<IProductCommand>()));
+            Assert.Throws<ArgumentException>(() => prodRepository.Find(It.IsAny<IProductCommand<Product, bool>>()));
         }
 
         [Test]
@@ -71,14 +69,14 @@ namespace ServiceComponents.Tests.Repositories
 
             Func<Product, bool> query = (product => product.Usages == "digital download");
 
-            var mockProductCommand = testingObject.GetDependency<Mock<IProductCommand>>();
+            var mockProductCommand = testingObject.GetDependency<Mock<IProductCommand<Product, bool>>>();
 
             mockProductCommand
                 .Setup(c => c.Command())
                 .Returns(query);
 
             ProductRepository prodRepository = testingObject.GetResolvedTestingObject();
-            var a = testingObject.GetDependency<Mock<IProductCommand>>();
+            var a = testingObject.GetDependency<Mock<IProductCommand<Product, bool>>>();
 
             Assert.AreEqual(3, prodRepository.Find(mockProductCommand.Object).Count<Product>());
 

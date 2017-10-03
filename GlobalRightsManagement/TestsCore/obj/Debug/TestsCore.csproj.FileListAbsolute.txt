@@ -29,4 +29,3 @@ C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManageme
 C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Debug\TestsCore.dll
 C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Debug\TestsCore.pdb
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Debug\TestsCore.csprojResolveAssemblyReference.cache
