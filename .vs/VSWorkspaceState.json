@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GlobalRightsManagement",
+    "\\GlobalRightsManagement\\Executable"
   ],
+  "SelectedNode": "\\GlobalRightsManagement\\Executable",
   "PreviewInSolutionExplorer": false
 }

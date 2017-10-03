@@ -1,44 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using RecklassRekkids.GlblRightsMgmt.ServiceComponents.Services;
-using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Services;
-using RecklassRekkids.GlblRightsMgmt.ServiceComponents.Repositories;
-using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.View;
-using RecklassRekkids.GlblRightsMgmt.ServiceComponents.API.View;
-using RecklassRekkids.GlblRightsMgmt.ServiceEntities;
+﻿// <copyright file="PartnerCreateController.cs" company="Recklass Rekkids">
+//     Copyright (c) 2017 RecklassRekkids Ltd. All rights Reserved.
+// </copyright>
+// <author>Saravana</author>
 
 namespace RecklassRekkids.GlblRightsMgmt.ServiceComponents.API.Controller
 {
+    using RecklassRekkids.GlblRightsMgmt.ServiceAbstractions.Services;
+    using RecklassRekkids.GlblRightsMgmt.ServiceComponents.Repositories;
+    using RecklassRekkids.GlblRightsMgmt.ServiceComponents.Services;
+
     /// <summary>
     /// Controller for product search functinality
     /// </summary>
     public class PartnerCreateController
     {
+        /// <summary>
+        /// The partner service
+        /// </summary>
         private IPartnerService partnerService;
 
         /// <summary>
-        /// Initialise product service
+        /// Initializes a new instance of the <see cref="PartnerCreateController"/> class.
         /// </summary>
-        public PartnerCreateController() : this(new PartnerService(PartnerRepository.CreatePartnerRepository()))
-        { }
+        public PartnerCreateController()
+            : this(new PartnerService(PartnerRepository.CreatePartnerRepository()))
+        {
+        }
 
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PartnerCreateController"/> class.
+        /// </summary>
+        /// <param name="partnerService">The partner service.</param>
         public PartnerCreateController(PartnerService partnerService)
         {
             this.partnerService = partnerService;
         }
 
         /// <summary>
-        /// Factory method to create controller from given connection string. 
+        /// Factory method to create controller from given connection string.
         /// </summary>
-        /// <param name="connectionstring">connection detail to file from where initiail data should be loaded</param>
-        /// <returns></returns>
+        /// <param name="connection">The connection.</param>
         public void Upload(string connection)
         {
             this.partnerService.Upload(connection);
         }
-
     }
 }

@@ -1,7 +1,0 @@
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\bin\Debug\netstandard1.4\ServiceEntities.deps.json
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\bin\Debug\netstandard1.4\ServiceEntities.dll
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\bin\Debug\netstandard1.4\ServiceEntities.pdb
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\obj\Debug\netstandard1.4\ServiceEntities.AssemblyInfo.cs
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\obj\Debug\netstandard1.4\ServiceEntities.dll
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\obj\Debug\netstandard1.4\ServiceEntities.pdb
-C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\ServiceEntities\obj\Debug\netstandard1.4\ServiceEntities.csprojResolveAssemblyReference.cache

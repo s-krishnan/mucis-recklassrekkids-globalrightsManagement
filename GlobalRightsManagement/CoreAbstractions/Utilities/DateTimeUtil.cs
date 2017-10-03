@@ -23,5 +23,10 @@ namespace RecklassRekkids.GlblRightsMgmt.CoreAbstractions.Utilities
 
             return result;
         }
+
+        public static String ConvertToString(DateTime dt)
+        {
+            return dt.ToString("dd'st' MMM yyyy");
+        }
     }
 }
