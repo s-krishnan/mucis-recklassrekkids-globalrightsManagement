@@ -6,6 +6,10 @@
     <RootNamespace>RecklassRekkids.GlblRightsMgmt.ServiceComponents.DataComponent</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Executable\netstandard1.4\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\ServiceEntities\ServiceEntities.csproj" />
   </ItemGroup>

@@ -1,0 +1,16 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\NUnit3.TestAdapter.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\nunit.engine.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\nunit.engine.api.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Mono.Cecil.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Mono.Cecil.Pdb.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Mono.Cecil.Mdb.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Mono.Cecil.Rocks.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestData\MusicContract.txt
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestData\PartnerContract.txt
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\EndToEndTest.cs.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\EndToEndTest.cs.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\EndToEndTest.cs\obj\Release\EndToEndTest.cs.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\EndToEndTest.cs\obj\Release\EndToEndTest.cs.Properties.Resources.resources
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\EndToEndTest.cs\obj\Release\EndToEndTest.cs.csproj.GenerateResource.Cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\EndToEndTest.cs\obj\Release\EndToEndTest.cs.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\EndToEndTest.cs\obj\Release\EndToEndTest.cs.pdb

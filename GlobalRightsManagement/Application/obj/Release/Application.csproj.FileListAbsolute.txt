@@ -1,0 +1,8 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestData\MusicContract.txt
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestData\PartnerContract.txt
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Application.exe.config
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Application.exe
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\Application.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Application\obj\Release\Application.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Application\obj\Release\Application.exe
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Application\obj\Release\Application.pdb

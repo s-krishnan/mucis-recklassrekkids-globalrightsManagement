@@ -6,6 +6,10 @@
     <RootNamespace>RecklassRekkids.GlblRightsMgmt.ServiceComponents</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Executable</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Repository\**" />
     <EmbeddedResource Remove="Repository\**" />

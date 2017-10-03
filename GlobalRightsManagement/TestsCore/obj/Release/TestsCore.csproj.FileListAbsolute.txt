@@ -1,0 +1,6 @@
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestsCore.dll.config
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestsCore.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\Executable\TestsCore.pdb
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Release\TestsCore.csprojResolveAssemblyReference.cache
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Release\TestsCore.dll
+C:\MyWorkSpace\mucis-recklassrekkids-globalrightsManagement\GlobalRightsManagement\TestsCore\obj\Release\TestsCore.pdb
